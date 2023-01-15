@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Personal data: </legend>
+
+        <h1 style="text-shadow: 1px 2px 3px red;">Detailed Form</h1>
+        <label for="fname">First Name:</label><br>
+    <input type="text" id="first_name" name="text-fill" required><br><br>
+    <label for="lname">Last Name:</label><br>
+    <input type="text" id="password" name="text-fill" required><br><br>
+    <label for="gender">Choose Gender:</label><br>
+    <input type="radio" name="gender">
+    <label for="male">Male</label>
+    <input type="radio" name="gender">
+    <label for="female">Female</label>
+    <input type="radio" name="gender">
+    <label for="other">Other</label><br><br>
+    <select name="district" id="district-list">
+        <option value="bangalore">Bangalore</option>
+        <option value="chitradurga">Chitradurga</option>
+        <option value="Davangere">Davangere</option>
+        <option value="Chikballapur">Chikballapur</option>
+        <option value="Haveri">Haveri</option>
+        <option value="Kolar">Kolar</option>
+        <option value="Bidar">Bidar</option>
+        <option value="Bijapur">Bijapur</option>
+        <option value="Shivamogga">Shivamogga</option>
+        
+    </select><br><br>
+    <label for="proof">Proof:</label><br><br>
+    <input list="proof">
+    <datalist id="proof">
+        <option value="Voter">Voter Id</option>
+        <option value="pan">Pan Card</option>
+        <option value="dl">Driving License</option>
+        <option value="passport">Passport</option>
+    </datalist><br><br>
+    <label for="fav-color">Choose color: </label>
+    <input type="color"><br><br>
+    <label for="birth-date">Choose your Birthdate: </label>
+    <input type="date" id="birth"><br><br>
+    <label for="time">Choose time:</label>
+    <input type="time" id="local-time"><br><br>
+    <input type="file" id="myFile"><br><br>
+    <label for="ranges">0 to 55</label>
+    <input type="range" name="numberValue" id="nValue" min="0" max="55"><br><br>
+    <input type="image" src="https://freepngimg.com/save/25432-submit-button-file/600x192" width="20%">
+
+</body>
+</html>
